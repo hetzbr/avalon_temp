@@ -1,0 +1,511 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+
+.carousel-caption {
+background: #FFFFFF;
+opacity: 0.85;
+color:#333;
+padding-left: 5%;
+padding-right:5%;
+max-width:100%;
+    
+
+    
+}
+
+
+
+
+.paragraphcaption {
+font-size:.75em;
+padding-bottom:1.5em;
+font-weight:normal;
+}
+
+
+
+
+
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+	position: relative;
+}
+
+.thumbnail .caption-full {
+   
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 39px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+       font-size: 20px;
+       background-color: #FEFEFE;
+       font-family:'Poiret One', cursive;
+       color: black;
+}
+.navbar-inverse .navbar-brand {
+color: black;
+    }
+
+
+.navbar-inverse {
+background-color: white;
+border: none;
+
+
+}
+
+body {
+    font-size: 15px;
+}
+.col-md-3 {
+    padding-left: 7px;
+
+}
+
+.pull-right {
+   position:relative;
+}
+
+.dropdown {
+    padding-top: 5px;;
+    display: block;
+      
+}
+.dropdown button {
+    background-color: white;
+    font-family: "Poiret One",cursive;
+    font-size: 20px;
+}
+.col-md-9 {
+    width: 100%;
+}
+
+#space {
+    visibility: hidden;
+}
+#green {
+    color:green;
+    font-weight: bolder;
+}
+.dropdown-menu {
+    font-family: "Poiret One",cursive;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "Poiret One",cursive;
+     font-size: 23px;
+    font-weight: bold;
+}
+
+.caption {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.col-lg-12 {
+    text-align: center;
+}
+h3 {
+    font-family: "Poiret One",cursive;
+     font-size: 23px;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+#title {
+    color: black;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-right: 15px;;
+    
+}
+
+.jumbotron h1 {
+     font-family: "Poiret One",cursive;
+    font-size: 2.5em;
+    font-weight:bolder;
+    color: green;
+    
+;
+}
+
+.jumbotron img {
+   margin-left: 2px;
+
+    
+}
+
+h2 {
+    font-family: "Poiret One",cursive;
+     font-size: 2em;
+        font-weight: bold;
+    color: green;
+}
+
+#funeral {
+font-size: 19px;
+    font-weight: 200;
+}
+
+.images {
+    width: 50%;
+}
+
+#fbook {
+    padding-top: 5px;
+
+}
+
+#arrangement {
+    color: green;
+     font-family: Helvetica Neue;
+     font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.snipcart-add-item {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+ .jumbotron h1 {
+     font-family: Helvetica Neue;
+     font-weight: 300;
+ }
+
+    
+.carousel-caption h2 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: black;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    color: green;
+    
+}
+.carousel-caption p {
+    margin-bottom: 0px;
+     font-family:sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+@media (max-width: 1200px) {
+        
+    .carousel-caption p {
+       display: none;
+    }
+   .placeholder {
+       height: 370px;
+   }
+    .col-sm-4.selectionbox2 {
+        padding-left: 20px;
+        width: 50%;
+    }
+}
+@media (max-width: 991px) {
+    
+    .carousel-caption h2 {
+        font-size: 1.4em;
+        
+    }
+    .carousel-caption p {
+       display: none;
+    }
+    
+    .placeholder {
+        height: 700px;
+    }
+     .qty2 {
+     width: 5%;
+     margin-top: 5px;
+     }
+ .col-sm-4.selectionbox2 {
+        padding-left: 20px;
+        width: 50%;
+    }
+  .selectlist {
+     width: 100px;
+      margin-top: 0px;
+      margin-left: 10px;
+        
+        
+    }
+}
+    
+@media (max-width: 767px) {
+    
+    .carousel-caption {
+        padding-left: 10px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 2em;
+     
+    }
+        
+    .carousel-caption p {
+       display: block;
+       
+    }
+    
+
+}
+.arrangements {
+    margin-bottom: 15px;
+}
+
+    
+.productimage {
+    float: left;
+    margin-right: 4%;
+   
+ 
+    
+    
+}
+    
+   .productheader {
+   margin-top: 0%;
+       padding-top: 0%;
+    
+} 
+    
+
+    
+.producttext {
+    font-size: 1.1em;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+    
+.placeholder {
+   width: 320px;
+    
+    float:left;
+    margin-right: 4%;
+}
+
+.qty {
+    width: 140px;
+    height: 25px;
+    text-align: center;
+     border: 1px solid ;
+     padding: 5px 7px;
+    margin-right: 5px;
+    padding-bottom: 4px;
+    font-size: 1.125em;
+    
+}
+.qty2 {
+    
+    float: left;
+    width: 80px;
+    margin-right: 0px;
+    font-size: 1.1em;
+    
+}
+.btn2 {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid ;
+
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    padding: 2px 3px;
+    padding-bottom: 1px;
+  margin-right: 0px;
+    text-transform: uppercase;
+
+   float: left;
+    position: relative;
+}
+
+.btn2:hover {
+
+    color: green;
+    
+}
+.checkbox2 {
+     font-size: 1.1em;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin: 10px;
+    position: relative;
+float:left;
+    margin-top: 0;
+     margin-left: 0;
+    
+
+    
+    
+}
+
+.selectlist {
+    width: 180px;
+    position: relative;
+    float: left;
+  
+     font-size: 1.1em;
+    font-weight: 200;
+    font-family: sans-serif;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    margin: 2%;
+    margin-left: 0px;
+   
+    margin-top: 0px;
+    
+
+   
+    margin-bottom: 8px;
+}
+
+.selectlist1 {
+    width: 180px;
+    position: relative;
+    float: left;
+  
+     font-size: 1.1em;
+    font-weight: 200;
+    font-family: sans-serif;
+
+    padding-top: 5px;
+
+    
+    
+    margin: 2%;
+    margin-left: 0px;
+   
+   
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    line-height:60px;
+    
+}
+
+
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-bottom: 4%;
+    
+}
+
+.productback {
+    background-image: url("../images/navbackground.jpg");
+    width: 70%;
+    
+}
+
+
+.row.product {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+
+.col-sm-6.selectionbox{
+   padding-left:0;
+}
+
+.qtytext {
+    float:left;
+    margin-top: 5px;
+}
+
+.col-xs-4 {
+    float: left;
+}
+.col-xs-6 {
+    float: left;
+}
+
+.img-responsive {
+    margin-bottom:
+        10px;
+}
+
+.jumbotron h1.productheader2 {
+    font-size: 1.8em;
+    margin-top:0;
+        
+}
+
+@media (max-width: 610px) {
+    
+    .container.fixed {
+        width: 610px;
+    }
+    
+    
+}
