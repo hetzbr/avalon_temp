@@ -43,7 +43,15 @@
   href="https://app.snipcart.com/themes/base/snipcart.css" 
   rel="stylesheet" />
     
-
+<script>
+$(document).ready(function () {
+    $('.snipcart-add-item').hide();
+    $('#size').change(function () {
+        $('.snipcart-add-item').hide();
+        $('#'+$(this).val()).show();
+    });
+});
+</script>
 
 </head>
 
@@ -67,12 +75,12 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                    <!-- Single button -->
-<li><a href="arrangements.html">Arrangements</a></li>
+<li><a href="arrangements.html"><strong>Arrangements</strong></a></li>
                     <li>
-                          <a href="services.html">Services</a>
+                          <a href="services.html"><strong>Services</strong></a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html"><strong>About</strong></a>
                       
                     </li>
                      <li>
@@ -102,10 +110,11 @@
              <div class="col-xs-6 ">
                          
                  <h1 class="productheader2">Rose Arrangement</h1>
-               <div class="hidden sm hidden xs">  <br /></div>
+               <div class="hidden sm hidden xs">&nbsp;</div>
+			   <br />
                   <div class="col-sm-8">
                      <div class="checkbox2  hidden-sm hidden-xs">
-                        <INPUT   TYPE=CHECKBOX NAME="mushrooms">&nbsp;Vase [Add $9.99] <br />
+                        <INPUT TYPE=CHECKBOX NAME="mushrooms">&nbsp;Vase [Add $9.99] <br />
                         <INPUT class="chkbox" TYPE=CHECKBOX NAME="olives">&nbsp;Balloons [Add $4.99] <br />
                         <INPUT class="chkbox" TYPE=CHECKBOX NAME="onions">&nbsp;Ribbon [Add $2.99] <br />
                         
@@ -123,31 +132,60 @@
                     </div>
                      
                     <div class="col-xs-4">
-                         <select class="selectlist">
-                            <option>Small [$29.99]</option>
-                            <option>Medium [$39.99]</option>
-                            <option>Large [$49.99]</option>
+						<label>Size</label>
+                         <select class="selectlist" name="size" id="size">
+							<option value=""> - Select - </option>
+                            <option value="1">Small [$29.99]</option>
+                            <option value="2">Medium [$39.99]</option>
+                            <option value="3">Large [$49.99]</option>
                         </select>
                          
                          <br />
                         <br />
                         
-                          
-                        <select class="selectlist" >
-                            <option>QTY</option>
+                          <label>Quantity</label>
+                        <select class="selectlist" name="quantity" >
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
                         </select>           
                          <br />
                         <br />
-                        <a href="#" class="btn btn-block btn-primary btn-primary selectlist snipcart-add-item"
+						
+                        <a href="#" id="1" class="btn btn-block btn-primary btn-primary selectlist snipcart-add-item"
                          data-item-id="1" 
-   data-item-name="Rose Arrangement" 
-   data-item-price="49.99" 
-
-                           data-item-url="file:///Users/ryanmugan/Desktop/Avalon/product.html"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						 data-item-name="Rose Arrangement-Small" 
+						 data-item-url="file:///Users/ryanmugan/Desktop/Avalon/product.html"
+						 data-item-price="29.99"		 	
+						 
+						 >
+						 
+						 
+						 <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						 
+						 <a href="#" id="2" class="btn btn-block btn-primary btn-primary selectlist snipcart-add-item"
+                         data-item-id="2" 
+						 data-item-name="Rose Arrangement-Medium" 
+						 data-item-url="file:///Users/ryanmugan/Desktop/Avalon/product.html"
+						 data-item-price="39.99"		 	
+						 
+						 >
+						 
+						 
+						 <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
                         
+						<a href="#" id="3" class="btn btn-block btn-primary btn-primary selectlist snipcart-add-item"
+                         data-item-id="3" 
+						 data-item-name="Rose Arrangement-Large" 
+						 data-item-url="file:///Users/ryanmugan/Desktop/Avalon/product.html"
+						 data-item-price="49.99"		 	
+						 
+						 >
+						 
+						 
+						 <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						
+						
                         
                       
                     </div>
